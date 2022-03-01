@@ -1,5 +1,7 @@
 package SortingAlgorithms;
 /*
+@author: Karim
+@Kaysium
 --Sorting algorithm based on comparison and swapping adjacent elements--
 -- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2)--
 
