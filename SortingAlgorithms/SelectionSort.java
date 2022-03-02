@@ -3,7 +3,7 @@ package SortingAlgorithms;
 @author: Karim
 @Kaysium
 --Sorting algorithm based on comparison and swapping adjacent elements--
--- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2)--
+-- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2) --
 
 Like bubble sort, selection sort cannot do better than O(n^2) since, there are two nested loops controlling the iteration with swaps occuring every single time
 */
