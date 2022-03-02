@@ -120,5 +120,5 @@ public class MergeSort {
  * B = 2
  * D = 1
  * a/b^d = 1
- * so the complexity of T(n) = O(n^1 log(n)) = O(nlog(n))
+ * so the complexity of T(n) = O(n^1 log(n)) = O(nlog(n)).
  */
