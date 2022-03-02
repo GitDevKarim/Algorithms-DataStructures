@@ -3,7 +3,7 @@ package SortingAlgorithms;
 @author: Karim
 @Kaysium
 -- Sorting algorithm based on comparison and swapping adjacent elements --
--- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2) --
+-- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2). --
 
 A relatively simple sorting algorithm that has a crazy time complexity. 
 Bubble sorts operates based on two nested loops ALWAYS RUNNING since they are controlling the iteration, making the complexity of it always O(n^2)
