@@ -4,7 +4,7 @@ package SortingAlgorithms;
 @Kaysium
 --Sorting algorithm based on comparison and swapping adjacent elements --
 -- IN GENERAL SUCH ALGORITHMS CANNOT DO BETTER THAN O(n^2) -- 
-In All three, only insertion can go down to O(n)
+In All three, only insertion can go down to O(n).
 
 For when it comes to insertion sort, it is better than bubble sort
 Since, after careful attention to the code, we realize the following
