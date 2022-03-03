@@ -6,7 +6,7 @@ package GraphTheory;
 This is going to be an undirected graph. 
 That will be travsersed through BFS.
 
-This code has its limits, as the values of the nodes cannot surpass the initial Vertex value.
+Within this code, the verticies will be given an ID from 0 to Intial vertex - 1.
 */
 
 import java.util.*;
