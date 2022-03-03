@@ -104,7 +104,8 @@ public class MergeSort {
  * -- Master theorem --
  * is of form T(n) = AT(n/B) + O(n^D)
  * 
- * Where T(n) is the time complexity of the algorithm, A is the asymptotic
+ * Where T(n) is the time complexity of the algorithm, A is the asymptotic (how
+ * many recusrive calls)
  * constant, T(n/B) is the time complexity of the sub-algorithm, and n is the
  * size of the array. O(n^D) is the time complexity to merge the sorted arrays.
  * 
