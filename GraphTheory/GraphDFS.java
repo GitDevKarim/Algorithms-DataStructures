@@ -41,6 +41,15 @@ public class GraphDFS {
 
     void DFS(int Source, boolean Visited[]) {
         Visited[Source] = true;
+        Iterator<Integer> itr = Graph.get(Source).listIterator();
+
+        System.out.print(Source + " ");
+        while (itr.hasNext()) {
+            int n = itr.next();
+            if (!Visited[n]) {
+                DFS(n, Visited);
+            }
+        }
     }
 
     public static void main(String[] args) throws Exception {
