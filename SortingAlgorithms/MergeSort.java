@@ -3,18 +3,18 @@ package SortingAlgorithms;
 @author: Karim
 @Kaysium
 ?-- Algorithm based on comparison only --
-?-- Usage of recrusion --
+?-- Usage of recursion --
 ?-- Such algorithms can do better than O(n^2), as such, merge sort can go as O(nlogn) --
 
 This algorithm works on the principle of divide and conquer.
-It will keep on dividing the array into smaller sub-arrays until it reaches the base case, which is when the array is of size 1. This step technically takes aprox O(log(n)) time, going from size n to 1.
+It will keep on dividing the array into smaller sub-arrays until it reaches the base case, which is when the array is of size 1. This step technically takes approx O(log(n)) time, going from size n to 1.
 
 In order to achieve this, aka to take the main array and keep on dividing until we reach one, we use the method called Msort. Such method takes as input the array and the starting and ending index of the array.
 Then we get the mid of it, and we call the method again, but this time with the mid as the starting index and the end as the ending index.
 
 After that's done, we call a method called merge, which takes as input the Array, start, mid and end of it. We copy the elements from the start to the mid to a new array, and then we copy the elements from the mid to the end to a new array.
 
-Then we compare the two arrays and copy the smaller element to the main array, unitl one of the sub arrays goes out of bounds. Then we copy the remaining parts of the sub arrays to the main array. Assume this takes  O(n) time.
+Then we compare the two arrays and copy the smaller element to the main array, until one of the sub arrays goes out of bounds. Then we copy the remaining parts of the sub arrays to the main array. Assume this takes  O(n) time.
 
 MergeSort in a nutshell: Two methods, one that divides until it reaches the base case, and one that merges the two sub arrays until one goes out of bounds. 
 
@@ -105,7 +105,7 @@ public class MergeSort {
  * is of form T(n) = AT(n/B) + O(n^D)
  * 
  * Where T(n) is the time complexity of the algorithm, A is the asymptotic (how
- * many recusrive calls)
+ * many recursive calls)
  * constant, T(n/B) is the time complexity of the sub-algorithm, and n is the
  * size of the array. O(n^D) is the time complexity to merge the sorted arrays.
  * 
@@ -121,5 +121,5 @@ public class MergeSort {
  * B = 2
  * D = 1
  * a/b^d = 1
- * so the complexity of T(n) = O(n^1 log(n)) = O(nlog(n))
+ * so the complexity of T(n) = O(n^1 log(n)) = O(nlogn(n))
  */

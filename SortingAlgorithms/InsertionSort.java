@@ -11,7 +11,7 @@ Since, after careful attention to the code, we realize the following
 In Bubble sort, we got two nest loops that controls iteration, regardless if there would be swapping or not, iteration will occur. On the other hand, in insertion sort, we realize that the nested loop is in 
 control of both iteration and swapping, 2 in 1.
 
-So when it comes to the complexity of Insertion sort, at BEST, we have that the 2nd loop never goes, since the coniditions will never meet, making the first loop going n times only. Hence, O(n).
+So when it comes to the complexity of Insertion sort, at BEST, we have that the 2nd loop never goes, since the conditions will never meet, making the first loop going n times only. Hence, O(n).
 At WORST, we have that the 2nd nested loop always going, making the Complexity of the algorithm n.n, hence   O(n^2). Since, the 2nd loop determines also the number of swaps, swapping may be done 1 time O(1) or n times aka every time, O(n)
 */
 

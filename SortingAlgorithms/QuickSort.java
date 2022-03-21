@@ -4,12 +4,12 @@ package SortingAlgorithms;
 @author: Karim
 @Kaysium
 -- Algorithm based on comparison only --
--- Usage of recrusion --
+-- Usage of recursion --
 -- Such algorithms can do better than O(n^2), as such, quicksort can go as O(nlogn) --
 
 Like Mergesort, this sorting algorithm works on the principle of divide and conquer.
-We pick a pivot, could be anywhere withn the array itself or could be the first element, and then we divide the array into two sub arrays, one with elements smaller than the pivot, and one with elements greater than the pivot.
-We then recursively call the method on the sub arrays. Partition ususllay takes O(n) time, and the recursion is O(logn)
+We pick a pivot, could be anywhere within the array itself or could be the first element, and then we divide the array into two sub arrays, one with elements smaller than the pivot, and one with elements greater than the pivot.
+We then recursively call the method on the sub arrays. Partition usually takes O(n) time, and the recursion is O(logn)
 
 Time complexity on average: O(nlogn)
 Worst case is when you call quicksort on an array that is already sorted. O(n^2)
