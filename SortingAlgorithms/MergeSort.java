@@ -2,9 +2,9 @@ package SortingAlgorithms;
 /*
 @author: Karim
 @Kaysium
--- Algorithm based on comparison only --
--- Usage of recrusion --
--- Such algorithms can do better than O(n^2), as such, merge sort can go as O(nlogn) --
+?-- Algorithm based on comparison only --
+?-- Usage of recrusion --
+?-- Such algorithms can do better than O(n^2), as such, merge sort can go as O(nlogn) --
 
 This algorithm works on the principle of divide and conquer.
 It will keep on dividing the array into smaller sub-arrays until it reaches the base case, which is when the array is of size 1. This step technically takes aprox O(log(n)) time, going from size n to 1.
