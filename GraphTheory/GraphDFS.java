@@ -5,9 +5,9 @@ package GraphTheory;
 @Kaysium
 
 This is going to be an undirected graph. 
-That will be travsersed through DFS.
+That will be traversed through DFS.
 
-Within this code, the verticies will be given an ID from 0 to Intial vertex - 1.
+Within this code, the vertices will be given an ID from 0 to Initial vertex - 1.
 */
 
 import java.util.*;
