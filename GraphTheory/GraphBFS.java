@@ -1,12 +1,12 @@
 package GraphTheory;
 /*
-@author: Karim
-@Kaysium
+!@author: Karim
+!@Kaysium
 
-This is going to be an undirected graph. 
-That will be travsersed through BFS.
+*This is going to be an undirected graph. 
+*That will be travsersed through BFS.
 
-Within this code, the verticies will be given an ID from 0 to Intial vertex - 1.
+*Within this code, the verticies will be given an ID from 0 to Intial vertex - 1.
 */
 
 import java.util.*;
