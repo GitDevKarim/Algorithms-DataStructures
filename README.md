@@ -1,2 +1,2 @@
-# Revision for my upcoming midterms.
+# Some well known Data structures and sorting algorithms written in Java.
 
